@@ -1,0 +1,443 @@
+/* ::::: http://beststorywin.info/themes/cas/ru/vulkan-gazeta-student/assets/style.css ::::: */
+
+.clearfix::before, .clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+* {
+    font-family: "Arial", sans-serif;
+}
+
+.article p {
+    margin: 15px 0px ! important;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, table, th, td, embed, object, figure, select, ul li ul, ul li ol, ul li ul li, ul li ol li {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+fieldset, img, abbr {
+    border: medium none;
+}
+
+address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, ins {
+    text-decoration: none;
+}
+
+ul {
+    list-style: outside none none;
+}
+
+.right {
+    float: right ! important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.comments a {
+    text-decoration: none;
+}
+
+.row {
+    margin: 0px auto;
+    max-width: 1270px;
+    width: 100%;
+}
+
+.row::before, .row::after {
+    content: " ";
+    display: table;
+}
+
+.row::after {
+    clear: both;
+}
+
+.columns, .column {
+    float: left;
+    padding: 0px 10px;
+    position: relative;
+}
+
+@media only screen and (min-width: 0px) {
+    body .xsmall-2 {
+        width: 16.6667%;
+    }
+
+    body .xsmall-10 {
+        width: 83.3333%;
+    }
+
+    body .xsmall-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 640px) {
+    body .medium-1 {
+        width: 8.33333%;
+    }
+
+    body .medium-6 {
+        width: 50%;
+    }
+
+    body .medium-11 {
+        width: 91.6667%;
+    }
+
+    body .medium-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body .large-4 {
+        width: 33.3333%;
+    }
+
+    body .large-8 {
+        width: 66.6667%;
+    }
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0px 0px 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mark {
+    color: rgb(255, 0, 0);
+}
+
+.mark-border {
+    background: rgb(253, 253, 213) none repeat scroll 0% 0%;
+    border: 1px solid rgb(211, 211, 62);
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-top: 20px;
+}
+
+.mark-block {
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(221, 221, 221);
+    padding: 10px 10px 10px 170px;
+    position: relative;
+    margin: 40px 0px;
+    min-height: 110px;
+}
+
+.mark-block img {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+header {
+    padding: 20px 0px;
+}
+
+header .logo img {
+    height: 30px;
+}
+
+.nav {
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 15px 0px;
+    margin: 10px 0px 0px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav li a {
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.nav li a:hover {
+    color: rgb(175, 36, 44);
+    border-bottom: 1px solid rgb(175, 36, 44);
+}
+
+a.rss, a.mail {
+    height: 12px;
+    width: 14px;
+    position: relative;
+    top: 5px;
+    text-align: right;
+}
+
+.header-icons {
+    text-align: right;
+}
+
+a.rss {
+    background-image: url("../images/rss_gray.png"/*tpa=http://gamerulet.ru/images/rss_gray.png*/);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a.rss:hover, a.rss:active {
+    background-image: url("../images/rss_red.png"/*tpa=http://gamerulet.ru/images/rss_red.png*/);
+}
+
+a.mail {
+    background-image: url("../images/os_gray.png"/*tpa=http://gamerulet.ru/images/os_gray.png*/);
+    display: inline-block;
+}
+
+a.mail:hover, a.mail:active {
+    background-image: url("../images/os_red.png"/*tpa=http://gamerulet.ru/images/os_red.png*/);
+}
+
+div.intext-photo {
+    text-align: left;
+    margin: 20px 0px 0px;
+}
+
+.intext-photo img {
+    max-width: 100%;
+}
+
+blockquote {
+    padding: 20px;
+}
+
+main {
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.sber {
+    margin: 25px 0px;
+}
+
+.sber img {
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.img-label {
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news {
+    width: 100%;
+}
+
+.news-title {
+    background-color: rgb(31, 134, 118);
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.news-text {
+    font-size: 15px;
+    padding: 15px 30px;
+    background-color: rgb(237, 248, 238);
+}
+
+.news-text img {
+    max-width: 100%;
+}
+
+.news-text .step {
+    font-weight: bold;
+    padding: 20px 0px 5px;
+}
+
+.photo-aside {
+    height: 200px;
+    width: auto;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aside {
+    position: relative;
+}
+
+.sidebar a {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+.comments p {
+    font-family: "Arial";
+}
+
+.comments textarea {
+    color: rgb(119, 119, 119);
+    min-height: 50px;
+    width: 100%;
+}
+
+.comments .fbcity {
+    color: rgb(153, 153, 153);
+    font-weight: normal;
+}
+
+.fb-button {
+    background-color: rgb(66, 103, 178);
+    border-color: rgb(66, 103, 178);
+    border-radius: 2px;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) ! important;
+    padding: 4px 16px;
+    float: right ! important;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+}
+
+.fb-button:hover, .fb-button:active {
+    background-color: rgb(54, 88, 153);
+    border-color: rgb(54, 88, 153);
+}
+
+.lastcomm {
+    color: rgb(54, 88, 153);
+}
+
+.user-photo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+.comment-block {
+    margin-top: 20px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.fbtext {
+    font-size: 14px;
+}
+
+.fbtext img {
+    max-width: 85%;
+    margin: 15px 0px 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fbaction {
+    font-size: 13px;
+    color: rgb(59, 89, 152);
+    margin-top: 10px;
+}
+
+a, a:link, a:active {
+    color: rgb(59, 89, 152);
+}
+
+a:hover {
+    color: rgb(80, 116, 201);
+}
+
+.fbtime {
+    color: rgb(153, 153, 153);
+    cursor: help;
+    border-bottom: 1px dotted rgb(153, 153, 153);
+}
+
+.user-name {
+    color: rgb(59, 89, 152);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.like::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../images/like.png"/*tpa=http://gamerulet.ru/images/like.png*/);
+    margin: 0px 5px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    width: 13px;
+}
+
+footer {
+    padding: 250px 0px 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+footer p {
+    color: rgb(204, 204, 204);
+    font-size: 10px;
+}
+
+.ymaps-b-form-button__input::-moz-focus-inner {
+    padding: 0px;
+    border: 0px none;
+}
+
+@media not all, not all {
+}
+
+@media not all {
+}
